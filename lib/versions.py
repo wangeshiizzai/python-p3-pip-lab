@@ -3,6 +3,7 @@ import requests
 import pytest
 
 def python_version():
+    # return the actual sys.version_info object
     return sys.version_info
 
 def requests_version():
